@@ -17,19 +17,19 @@
       <!--Add your form below:-->
       <form action="story.html" method="GET">
         <label for="animal-1">Animal:</label>
-        <input type="text" name="animal-1" id="animal-1" required><br>
+        <input type="text" name="animal-1" id="animal-1" placeholder="Enter animal" required><br>
         <label for="animal-2">Another Animal:</label>
-        <input type="text" name="animal-2" id="animal-2" required><br>
+        <input type="text" name="animal-2" id="animal-2" placeholder="Enter animal" required><br>
         <label for="animal-3">One More Animal:</label>
-        <input type="text" name="animal-3" id="animal-3" required><br>
+        <input type="text" name="animal-3" id="animal-3" placeholder="Enter animal" required><br>
         <label for="adj-1">Adjective (ends in -ed):</label>
-        <input type="text" name="adj-1" id="adj-1" required><br>
+        <input type="text" name="adj-1" id="adj-1" placeholder="Enter adjective" required><br>
         <label for="verb-1">Verb (ends in -ing):</label>
-        <input type="text" name="verb-1" id="verb-1" required><br>
+        <input type="text" name="verb-1" id="verb-1" placeholder="Enter verb" required><br>
         <label for="num-1">Number:</label>
-        <input type="number" name="num-1" id="num-1" required><br>
+        <input type="number" name="num-1" id="num-1" placeholder="Enter number" required><br>
         <span>Yes or No:</span><br>
-        <input type="radio" name="answer" id="yes" value="yes" required>
+        <input type="radio" name="answer" id="yes" value="yes" checked required>
         <label for="yes">Yes</label>
         <input type="radio" name="answer" id="no" value="no" required>
         <label for="no">No</label><br>
@@ -39,7 +39,7 @@
           <option value="faster">Faster</option>
         </select><br>
         <label for="quote">Motivational Quote:</label>
-        <input type="text" name="quote" id="quote" list="quote-choices" required>
+        <input type="text" name="quote" id="quote" list="quote-choices" placeholder="Enter quote" required>
         <datalist id="quote-choices">
           <option value="The truth is rarely pure and never simple."></option>
           <option value="The only thing we have to fear is fear itself."></option>
@@ -47,7 +47,7 @@
           <option value="One cannot step twice in the same river."></option>
         </datalist><br>
         <label for="message">Meaningful Message:</label>
-        <textarea name="message" id="message" cols="40" rows="8" required></textarea><br>
+        <textarea name="message" id="message" cols="40" rows="8" placeholder="Enter message" required></textarea><br>
         <input type="submit" value="Form My Story!">
       </form>
     </section>
